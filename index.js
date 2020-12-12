@@ -22,8 +22,6 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     BotName: 'ZARK BOT',
     EDITED : ZARK
-    tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
-    waktu: time
 }
 
 const { BotName, tanggal, waktu, instagram, whatsapp, kapanbotaktif: ontime } = config
